@@ -1,12 +1,12 @@
 ---
-date: '2019-07-15'
-title: 'OctoProfile'
+date: '2020-04-15'
+title: 'Carviva'
 github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+external: 'https://mycarviva.com/'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - Gatsby.js
+  - Laravel
+  - REST API
 showInProjects: false
 ---
 

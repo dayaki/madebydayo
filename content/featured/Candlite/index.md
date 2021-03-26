@@ -1,14 +1,15 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Candlite Factory'
+cover: './candlite.jpg'
+github: ''
+external: 'https://candlite.co/'
 tech:
-  - React
+  - Angular
+  - IonicFramework
   - Node.js
   - Express
-  - Spotify Web API
+  - MongoDB
 showInProjects: true
 ---
 

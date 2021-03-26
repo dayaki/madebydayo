@@ -157,13 +157,19 @@ const About = () => {
             </p>
 
             <p>
-              I'm currently a Mobile Engineer at <a href="https://www.mypatricia.co/">Patricia</a>{' '}
-              building interesting and meaningful products with some awesome people.
+              I'm currently a Mobile Engineer (React Native) at{' '}
+              <a href="https://www.mypatricia.co/">Patricia</a> building interesting and meaningful
+              products with some awesome people.
             </p>
 
-            <p>
+            {/* <p>
               When I'm not in front of a computer screen, I'm probably on my game console playing
               some COD.
+            </p> */}
+
+            <p>
+              On weekends, I put my feet up and watch sports, Netflix or play some {'FIFA'} and{' '}
+              {'Call of Duty'}.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
