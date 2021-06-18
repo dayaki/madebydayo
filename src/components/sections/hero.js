@@ -3,12 +3,18 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import { usePrefersReducedMotion } from '@hooks';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
+  padding: 0;
+
+  @media (max-width: 480px) and (min-height: 700px) {
+    padding-bottom: 10vh;
+  }
 
   h1 {
     margin: 0 0 30px 4px;
@@ -41,8 +47,13 @@ const StyledHeroSection = styled.section`
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
+  const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
+    if (prefersReducedMotion) {
+      return;
+    }
+
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
@@ -52,8 +63,10 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for web & mobile.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Lagos, Nigeria specializing in building (and occasionally
-      designing) exceptional websites and mobile applications.
+      I'm a Lagos-based software engineer who specializes in building (and occasionally designing)
+      exceptional digital experiences. Currently, I'm an engineer at{' '}
+      <a href="https://mypatricia.co/">Patricia</a> focused on building accessible, human-centered
+      products.
     </p>
   );
   const five = (
@@ -66,14 +79,22 @@ const Hero = () => {
 
   return (
     <StyledHeroSection>
-      <TransitionGroup component={null}>
-        {isMounted &&
-          items.map((item, i) => (
-            <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-              <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
-            </CSSTransition>
+      {prefersReducedMotion ? (
+        <>
+          {items.map((item, i) => (
+            <div key={i}>{item}</div>
           ))}
-      </TransitionGroup>
+        </>
+      ) : (
+        <TransitionGroup component={null}>
+          {isMounted &&
+            items.map((item, i) => (
+              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
+                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+              </CSSTransition>
+            ))}
+        </TransitionGroup>
+      )}
     </StyledHeroSection>
   );
 };
