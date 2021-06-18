@@ -144,7 +144,7 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     margin: 0 0 10px 0;
     font-weight: 600;
-    color: var(--lightest-slate);
+    color: var(--dark);
     line-height: 1.1;
   }
 
@@ -173,7 +173,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--dark-navy);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -237,6 +237,7 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
     position: relative;
     transition: var(--transition);
+    color: var(--dark);
 
     &:hover,
     &:focus {
@@ -274,6 +275,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
+    color: var(--dark);
     margin: 0 0 15px 0;
 
     &:last-child,

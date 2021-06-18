@@ -8,6 +8,9 @@ import { usePrefersReducedMotion } from '@hooks';
 const StyledAboutSection = styled.section`
   max-width: 900px;
 
+  h2 {
+    color: var(--dark);
+  }
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -31,6 +34,7 @@ const StyledText = styled.div`
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
+      color: var(--dark);
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
 
@@ -38,7 +42,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--dark);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
