@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--dark-navy);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -30,13 +30,22 @@ const StyledHeroSection = styled.section`
 
   h3 {
     margin-top: 10px;
-    color: var(--slate);
+    color: var(--dark);
     line-height: 0.9;
+  }
+
+  h2 {
+    color: var(--dark);
   }
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 750px;
+    color: var(--dark-navy);
+  }
+
+  a {
+    color: var(--dark-slate);
   }
 
   .email-link {
