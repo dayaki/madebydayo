@@ -2,7 +2,7 @@
 date: '2020-01-10'
 title: 'COVID-19 Contact Tracing App'
 github: 'https://github.com/dayaki/BeSafe'
-external: ''
+external: 'https://github.com/dayaki/BeSafe'
 tech:
   - JS
   - Bluetooth

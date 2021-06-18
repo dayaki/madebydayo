@@ -1,7 +1,7 @@
 ---
 date: '2020-03-27'
 title: 'AskInsurpedia Mobile App'
-github: ''
+github: 'https://play.google.com/store/apps/details?id=com.askinsurpedia.mobile'
 external: 'https://play.google.com/store/apps/details?id=com.askinsurpedia.mobile'
 tech:
   - React
