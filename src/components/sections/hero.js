@@ -45,7 +45,7 @@ const StyledHeroSection = styled.section`
   }
 
   a {
-    color: var(--dark-slate);
+    color: var(--brand);
   }
 
   .email-link {

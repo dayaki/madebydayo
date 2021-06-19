@@ -16,7 +16,7 @@ const button = css`
   &:hover,
   &:focus,
   &:active {
-    background-color: var(--green-tint);
+    background-color: var(--brand-tint);
     outline: none;
   }
   &:after {
@@ -102,7 +102,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--green-tint);
+      background-color: var(--brand-tint);
       outline: none;
     }
     &:after {
@@ -125,7 +125,7 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: var(--green-tint);
+      background-color: var(--brand-tint);
       outline: none;
     }
     &:after {
@@ -156,7 +156,7 @@ const mixins = {
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--dark);
       }
     }
   `,

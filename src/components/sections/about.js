@@ -64,7 +64,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--brand);
 
     &:hover,
     &:focus {
@@ -109,7 +109,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--brand);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -159,15 +159,15 @@ const About = () => {
               products with some awesome people.
             </p>
 
-            {/* <p>
-              When I'm not in front of a computer screen, I'm probably on my game console playing
-              some COD.
-            </p> */}
-
             <p>
+              When I'm not in front of a computer screen, I'm probably watching sports, Netflix or
+              playing some {'FIFA'} and {'Call of Duty'}.
+            </p>
+
+            {/* <p>
               On weekends, I put my feet up and watch sports, Netflix or play some {'FIFA'} and{' '}
               {'Call of Duty'}.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
