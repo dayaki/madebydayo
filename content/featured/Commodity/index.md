@@ -5,6 +5,7 @@ cover: './commodity.jpg'
 github: ''
 external: 'https://beta.commoditytradepoint.com'
 tech:
+  - Bootstrap
   - Laravel
   - PHP/MySQL
 showInProjects: true

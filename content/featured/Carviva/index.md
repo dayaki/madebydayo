@@ -5,11 +5,10 @@ cover: './carviva.jpg'
 github: ''
 external: 'https://mycarviva.com/'
 tech:
-  - Gatsby.js
+  - GatsbyJS
   - Ionic Framework
   - Angular
   - Laravel
-  - REST API
 showInProjects: true
 ---
 

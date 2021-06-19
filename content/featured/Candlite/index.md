@@ -6,9 +6,8 @@ github: ''
 external: 'https://candlite.co/'
 tech:
   - Angular
-  - IonicFramework
-  - Node.js
-  - Express
+  - Ionic Framework
+  - NodeJS
   - MongoDB
 showInProjects: true
 ---
