@@ -8,7 +8,7 @@
   The first iteration of <a href="https://madebydayo.co" target="_blank">madebydayo.co</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>. A fork of/credit to the awesome <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/dayaki/madebydayo/main/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
