@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Dayo Akinkuowo',
+    title: 'Dayo Akinkuowo | Full-Stack Developer',
     description:
       'Dayo Akinkuowo is a software engineer specializing in building (and occasionally designing) exceptional websites and mobile applications.',
     siteUrl: 'https://madebydayo.co', // No trailing slash allowed!
