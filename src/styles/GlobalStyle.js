@@ -25,8 +25,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :focus {
-    outline: 2px dashed var(--green);
-    outline-offset: 3px;
+    /* outline: 2px dashed var(--green);
+    outline-offset: 3px; */
   }
 
   /* Scrollbar Styles */
@@ -41,7 +41,7 @@ const GlobalStyle = createGlobalStyle`
     background: var(--navy);
   }
   body::-webkit-scrollbar-thumb {
-    background-color: var(--dark-slate);
+    background-color: var(--brand);
     border: 3px solid var(--navy);
     border-radius: 10px;
   }
