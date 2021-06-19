@@ -165,6 +165,7 @@ const StyledProject = styled.li`
       padding: 20px 0;
       background-color: transparent;
       box-shadow: none;
+      /* color: var(--dark); */
 
       &:hover {
         box-shadow: none;
@@ -198,7 +199,7 @@ const StyledProject = styled.li`
 
       li {
         margin: 0 10px 5px 0;
-        color: var(--lightest-slate);
+        color: var(--dark-navy);
       }
     }
   }
@@ -287,7 +288,7 @@ const StyledProject = styled.li`
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(80%);
+        filter: grayscale(100%) contrast(1) brightness(30%);
       }
     }
   }
