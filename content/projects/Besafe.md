@@ -1,8 +1,8 @@
 ---
-date: '2021-01-10'
+date: '2020-04-18'
 title: 'COVID-19 Contact Tracing App'
 github: 'https://github.com/dayaki/BeSafe'
-external: 'https://github.com/dayaki/BeSafe'
+external: ''
 tech:
   - JS
   - Bluetooth
@@ -14,4 +14,4 @@ company: ''
 showInProjects: true
 ---
 
-A COVID-19 contact tracing app built with React Native.
+An open-source COVID-19 contact tracing app built with React Native.

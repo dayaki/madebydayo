@@ -1,15 +1,15 @@
 ---
-date: '2020-12-25'
+date: '2017-12-01'
 title: 'Jobiki - Job Board'
 github: 'https://github.com/dayaki/jobiki'
 external: 'https://dayaki.github.io/jobiki/'
 tech:
   - JS
   - React
-  - Bulma
+  - Bulma CSS
   - GatsbyJS
 company: ''
 showInProjects: true
 ---
 
-A job board built with Bulma CSS and GatsbyJS.
+A "personal project" job board I build with Bulma CSS and GatsbyJS while just learning Bulma and Gatsby.

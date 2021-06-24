@@ -1,9 +1,10 @@
 ---
-date: '2020-12-31'
+date: '2018-05-01'
 title: 'AskInsurpedia Mobile App'
 github: ''
 external: 'https://play.google.com/store/apps/details?id=com.askinsurpedia.mobile'
 tech:
+  - JS
   - React
   - React Native
   - Laravel - PHP

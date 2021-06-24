@@ -1,15 +1,15 @@
 ---
-date: '2021-01-01'
+date: '2021-01-20'
 title: 'Commodity TradePoint'
 github: ''
-external: 'https://play.google.com/store/apps/details?id=com.realmofglory.mobile&hl=en&gl=US'
+external: 'https://beta.commoditytradepoint.com/'
 tech:
-  - JS
-  - Angular
-  - Ionic Framework
-  - Cordova
-company: 'Realm of Glory Church'
+  - Bootstrap
+  - PHP
+  - Laravel
+  - MySQL
+company: 'Commodity TradePoint'
 showInProjects: true
 ---
 
-A live-streaming and sermon archive for a church built with ionic framework and cordova.
+A community where trader and investors meet for investments built with Laravl, still in beta.

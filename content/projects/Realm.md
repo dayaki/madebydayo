@@ -1,15 +1,15 @@
 ---
-date: '2020-12-28'
+date: '2017-11-01'
 title: 'Realm of Glory App'
 github: ''
-external: 'https://play.google.com/store/apps/details?id=com.realmofglory.mobile&hl=en&gl=US'
+external: 'https://play.google.com/store/apps/details?id=com.realmofglory.mobile'
 tech:
   - JS
   - Angular
   - Ionic Framework
   - Cordova
-company: 'Realm of Glory Church'
+company: ''
 showInProjects: true
 ---
 
-A live-streaming and sermon archive for a church built with ionic framework and cordova.
+The very last mobile app I build using ionic framework. A live-streaming and sermon archive for a church built with ionic framework and cordova.

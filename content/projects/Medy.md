@@ -1,8 +1,8 @@
 ---
-date: '2021-01-03'
-title: 'A Meditation Mobile App'
+date: '2020-03-27'
+title: 'Meditation Mobile App'
 github: 'https://github.com/dayaki/Medy'
-external: 'https://github.com/dayaki/Medy'
+external: ''
 tech:
   - JS
   - React
