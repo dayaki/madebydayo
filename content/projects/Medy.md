@@ -1,5 +1,5 @@
 ---
-date: '2020-01-09'
+date: '2021-01-03'
 title: 'A Meditation Mobile App'
 github: 'https://github.com/dayaki/Medy'
 external: 'https://github.com/dayaki/Medy'

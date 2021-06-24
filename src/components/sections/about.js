@@ -134,8 +134,10 @@ const About = () => {
     'HTML & (S)CSS',
     'React',
     'React Native',
-    'Node.js',
-    'Laravel (PHP)',
+    'NodeJS',
+    'Express',
+    'MongoDB',
+    'Laravel (PHP/MySQL)',
   ];
 
   return (

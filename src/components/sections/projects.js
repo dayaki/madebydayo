@@ -211,8 +211,6 @@ const Projects = () => {
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = firstSix;
 
-  // const projectsToShow = showMore ? projects : firstSix;
-
   const projectInner = node => {
     const { frontmatter, html } = node;
     const { github, external, title, tech } = frontmatter;
@@ -269,10 +267,6 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
-      {/* <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link> */}
-
       <ul className="projects-grid">
         {prefersReducedMotion ? (
           <>
@@ -303,10 +297,6 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-
-      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button> */}
     </StyledProjectsSection>
   );
 };
