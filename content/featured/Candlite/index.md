@@ -1,9 +1,9 @@
 ---
 date: '2'
 title: 'Candlite Factory'
-cover: './candlite.jpg'
+cover: './candlite-2.jpg'
 github: ''
-external: 'https://candlite.co/'
+external: 'https://play.google.com/store/apps/details?id=com.candlite.mobile'
 tech:
   - Angular
   - Ionic Framework
@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A devotional and social media styled mobile app for the Christain community with author's corner to post/edit and delete their contents on the platform. Build both the mobile app and the backend services.
