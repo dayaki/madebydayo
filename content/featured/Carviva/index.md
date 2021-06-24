@@ -1,15 +1,15 @@
 ---
 date: '3'
-title: 'Carviva'
+title: 'Carviva Landing Page'
 cover: './carviva.jpg'
 github: ''
 external: 'https://mycarviva.com/'
 tech:
+  - JS
+  - React
   - GatsbyJS
-  - Ionic Framework
-  - Angular
   - Laravel
 showInProjects: true
 ---
 
-An Uber-like service app for finding car mechanics/shops for automobile repairs. Built using Ionic v3, Laravel/mySQL for the backend.
+A landing page for Carviva - a Uber-like service app for finding car mechanics/shops for automobile repairs and autocare.

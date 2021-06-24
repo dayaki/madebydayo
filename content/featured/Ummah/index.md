@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '5'
 title: 'UmmahApp'
 cover: './ummah.jpg'
 github: ''
@@ -7,10 +7,9 @@ external: 'https://play.google.com/store/apps/details?id=com.thisummah.mobile'
 tech:
   - React
   - React Native
-  - Express
+  - Redux
   - NodeJS
   - MongoDB
-  - Heroku
 showInProjects: true
 ---
 
