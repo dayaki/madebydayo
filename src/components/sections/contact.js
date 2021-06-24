@@ -6,7 +6,8 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
-  margin: 0 auto 100px;
+  /* margin: 0 auto 100px; */
+  margin: 0 auto 10px;
   text-align: center;
 
   @media (max-width: 768px) {
