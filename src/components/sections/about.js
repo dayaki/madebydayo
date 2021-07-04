@@ -147,7 +147,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Dayo, a software engineer based in Lagos, Nigeria.</p>
+            <p>Hello! I'm Dayo, a full stack developer based in Lagos, Nigeria.</p>
 
             <p>
               I enjoy creating things that live on the internet, whether that be websites, or mobile

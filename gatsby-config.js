@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Dayo Akinkuowo | Full-Stack Developer',
     description:
-      'Dayo Akinkuowo is a software engineer specializing in building (and occasionally designing) exceptional websites and mobile applications.',
-    siteUrl: 'https://madebydayo.co', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+      'Dayo Akinkuowo is a full-stack developer specializing in building exceptional websites and mobile applications.',
+    siteUrl: 'https://madebydayo.co',
+    image: '/og.png',
     twitterUsername: '@dayaki',
   },
   plugins: [
